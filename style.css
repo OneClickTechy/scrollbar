@@ -8,3 +8,32 @@ body{
     background: rgb(20, 194, 194);
     font-family: sans-serif;
 }
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+div{
+    max-width: 50%;
+    background-color: white;
+}
+div p{
+    text-wrap: wrap;
+}
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+::-webkit-scrollbar-track{
+    background-color: gainsboro;
+}
+::-webkit-scrollbar-button{
+    background-color: yellow;
+
+}
+::-webkit-scrollbar-track-piece{
+    background-color: blue;
+}
